@@ -1,0 +1,93 @@
+
+body
+{
+background: url(include/img/bg.jpg) #222;
+padding: 35px 0px 35px 0px;
+margin: 0px auto;
+}
+
+#canvas {
+	width: 80%;
+	max-width: 1400px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#header {
+	background-color: #7b0000;
+	color: #ddd;
+	padding: 8px;
+	width: 60%;
+	max-width: 900px;
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#header a {
+	color: #ddd;
+}
+
+.panelParent {
+	text-align: Center;
+	width: 300px;
+	height: 200px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 15px;
+	display: inline-block;
+	vertical-align: top;
+	clear: both;
+	background: url(include/img/texture.png) #7b0000;
+	line-height: 20px;
+}
+
+.vote {
+	background-color: #007000;
+	color: #ddd;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.panel {
+	text-align: left;
+	width: 300px;
+	height: 200px;
+	color: #ddd;
+	background: url(include/img/texture.png) #7b0000;
+	overflow: hidden;
+	text-shadow: rgba(0, 0, 0, 0.701961) 1px 1px 1px;
+	position: relative;
+	top: -20px;
+	left: 0px;
+}
+
+.panel .name {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+	overflow: none;
+	white-space: nowrap;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.panel .location {
+	font-size: 12px;
+	padding-left: 15px;
+	line-height: 24px;
+	overflow: none;
+	white-space: nowrap;
+	position: relative;
+	top: 10px;
+}
+
+.panel .text {
+	margin-top: 10px;
+	font-size: 22px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 280px;
+}
